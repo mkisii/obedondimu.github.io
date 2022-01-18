@@ -61,3 +61,15 @@ a:hover{
     color: white;
 
 }
+.container .cook{
+    background-color: rgb(80, 55, 4);
+    color: white;
+    border: 2px solid rgb(233, 224, 224);
+    margin: 10px;
+    padding: 20px;
+}
+.container .cook .content h3{
+    color: rgb(235, 179, 179);
+    text-align: center;
+    
+}
