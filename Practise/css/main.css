@@ -37,9 +37,9 @@ h1 {
 
 .container .box {
 
-    /* position: relative; */
+    position: relative;
     width: auto;
-    height: 600px;
+    /* height: 600px; */
     margin: 10px;
     padding: 25px 30px;
     border: 5px hidden black;
@@ -57,7 +57,6 @@ h1 {
     width: 100%;
     height: 600px;
     background-color: #694d7e;
-   
     opacity: .8;
     position: absolute;
 }
@@ -80,13 +79,41 @@ h1 {
     font-size: 14px;
     padding: 16px 30px;
     background-color: white;
-    z-index: 0;
-
-
-
+   
 }
 
 .container #box1 .content .btn1:hover{
     color: white;
 
+}
+
+.container #box2 .content .btn2{
+    position: absolute;
+    background-color: #d8bada;
+    top: 10%;
+    left: 50%;
+    border-radius: 50px;
+    padding: 15px 25px;
+    border: 5px hidden black;
+}
+.container #box2{
+    width: auto;
+    height: 1200px;
+}
+.container #box2 .content .heading{
+    color: rgb(19, 15, 15);
+    font-size: 24px;
+    text-align: center;
+    position:absolute;
+    top: 15%;
+    width: 100%;
+    
+}
+.container #box2 .content .col-md-4{
+    max-width: 400px;
+    height: 600px;
+    float: left;
+    margin: 20px;
+    padding-top: 400px;
+  
 }
