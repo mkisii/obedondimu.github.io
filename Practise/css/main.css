@@ -98,7 +98,7 @@ h1 {
 }
 .container #box2{
     width: auto;
-    height: 1200px;
+    height: 1000px;
 }
 .container #box2 .content .heading{
     color: rgb(19, 15, 15);
@@ -116,4 +116,16 @@ h1 {
     margin: 20px;
     padding-top: 400px;
   
+}
+.container #box3{
+    width: auto;
+    height: 900px;
+}
+
+.container #box3 .content .btn3 ,.heading{
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    border-radius: 50px;
+
 }
