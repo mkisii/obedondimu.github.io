@@ -47,7 +47,7 @@ h1 {
 }
 
 .container #box1 {
-    background-image:url("../images/slider-bg12.jpg");
+    background-image:url("../img/slider-bg12.jpg");
     background-size: cover;
     width: auto;
     height: 600px;
